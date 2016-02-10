@@ -6,5 +6,6 @@ angular.module('Culturalyst-Landing.nav')
       restrict: 'E',
       templateUrl: 'directives/navbar/navbar.html',
       controller: 'NavbarCtrl',
+      css: 'directives/navbar/navbar.css'
     };
   });

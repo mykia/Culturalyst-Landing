@@ -10,4 +10,18 @@ angular.module('Culturalyst-Landing.nav', [])
       }
       return currentPath === path.split('/')[1];
     };
+
+    angular.element(document).ready(function(){
+    	jQuery(document).ready(function(){
+		    		$(window).scroll(function() {
+		        var scroll = $(window).scrollTop();
+		        if (scroll >= 500) {
+		            $(".header").addClass('smaller');
+		        } else {
+		            $(".header").removeClass("smaller");
+		        }
+		    });
+    	})
+    })
+
   });
