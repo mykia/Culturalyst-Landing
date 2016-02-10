@@ -1,0 +1,33 @@
+body {
+  min-height: 2000px;
+  margin-top: -40px !important;
+}
+
+.test{
+	height:2000px;
+	background-color: purple;
+}
+
+#mainPhoto{
+	width:100%;
+	position: relative;
+}
+
+.containerMain{
+	padding: 0px !important;
+	padding-top: 0px !important;
+}
+
+.logo{
+	width: 400px;
+	height:auto;
+	padding-left: 30px;
+	position: absolute;
+	display: block;
+	top: 5%;
+	left: 5%;
+}
+
+/*.page-header{
+	padding-bottom: 0px !important;
+}*/
