@@ -17,10 +17,8 @@ angular.module('Culturalyst-Landing.nav', [])
 		        var scroll = $(window).scrollTop();
 		        if (scroll >= 500) {
 		            $(".header").addClass('smaller');
-                $(".logo").addClass('pull-left');
 		        } else {
 		            $(".header").removeClass("smaller");
-                $(".logo").removeClass('pull-left');
 		        }
 		    });
     	})
