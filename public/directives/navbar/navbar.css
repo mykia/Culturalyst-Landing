@@ -11,7 +11,7 @@
 }*/
 
 .header h1 img.logo{
-	width: 400px
+	width: 400px;
 	height:auto;
 	padding-left: 30px;
 	position: absolute;
@@ -29,7 +29,7 @@
     left: 0;
     z-index: 999;
     background-color: #e3e4e6;
-    opacity: 0.7;
+    opacity: 0.1;
     -webkit-transition: height 0.3s;
     -moz-transition: height 0.3s;
     -ms-transition: height 0.3s;
@@ -55,13 +55,15 @@
     display: inline=block;
     float: right;
     margin-right:50px;
+    opacity: 1 !important;
 }
 .header nav a {
     line-height: 150px;
     margin-left: 20px;
-    color: #9fdbfc;
+    color: black;
     font-weight: 700;
     font-size: 18px;
+    opacity: 1 !important;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -73,6 +75,8 @@
 }
 .header.smaller {
     height: 75px;
+    opacity: 0.8;
+    background-color: white;
 }
 .header.smaller h1#logo {
     width: 150px;

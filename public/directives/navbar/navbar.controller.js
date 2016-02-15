@@ -15,7 +15,7 @@ angular.module('Culturalyst-Landing.nav', [])
     	jQuery(document).ready(function(){
 		    		$(window).scroll(function() {
 		        var scroll = $(window).scrollTop();
-		        if (scroll >= 500) {
+		        if (scroll >= 300) {
 		            $(".header").addClass('smaller');
 		        } else {
 		            $(".header").removeClass("smaller");
