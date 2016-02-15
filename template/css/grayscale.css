@@ -69,6 +69,10 @@ a:focus {
     background-color: #fff;
 }
 
+.navbar-brand>img {
+    padding-top: 11px !important;
+}
+
 .logo {
     width: 25%;
     margin-top: -15px;
