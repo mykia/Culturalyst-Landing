@@ -18,7 +18,7 @@ app = express();
 app.use(express.static('template'));
 // app.use(express.static(path.join(__dirname, 'public')));
 
-app.set('port', process.env.PORT || 80);
+app.set('port', process.env.PORT || 8080);
 app.use(logger('dev'));                                         // log every request to the console
 app.use(bodyParser.urlencoded({'extended':'true'}));            // parse application/x-www-form-urlencoded
 app.use(bodyParser.json());                                  // parse application/json
