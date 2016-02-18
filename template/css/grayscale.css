@@ -74,7 +74,7 @@ a:focus {
 }
 
 .logo {
-    width: 25%;
+    width: 21%;
     margin-top: -15px;
 }
 
@@ -112,7 +112,7 @@ a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: #fff;
+    color: #7F00FF;
     background-color: transparent;
 }
 
@@ -139,8 +139,8 @@ a:focus {
 }
 
 .collapse {
-    margin-top: -48px;
-    background-color: #42dca3;
+    margin-top: -40px;
+    background-color: transparent;
 }
 
 @media(min-width:768px) {
@@ -315,7 +315,7 @@ button {
 }
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 170px;
     }
 
     .download-section {
@@ -346,10 +346,10 @@ button {
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    border: 1px solid black;
     outline: 0;
     color: #000;
-    background-color: #42dca3;
+    background-color: black;
 }
 
 ul.banner-social-buttons {
@@ -379,10 +379,10 @@ li {
     .navbar-custom {
         /*margin-top: -20px;*/
         background-color: #fff;
-        height: 10%;
+        height: 5%;
     }
     .logo {
-        width: 43%;
+        width: 30%;
         margin-top: -62px;
     }
     .intro .intro-body .intro-text {
@@ -459,7 +459,7 @@ body {
 }
 .video-container {
     position: relative;
-    padding-bottom: 56.25%;
+    padding-bottom: 50.25%;
     padding-top: 30px; height: 0; overflow: hidden;
 }
  
@@ -471,4 +471,52 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
 }
+/*.container-download{
+    background-color: white;
+    font: black;
+}*/
+
+#download{
+    background-color: white;
+
+}
+.container-download h2{
+    color: black;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+}
+
+.container-download p{
+    color: black;
+}
+
+#launchbtn{
+    background-color: #FFFF00;
+    border-radius: 10px;  
+    padding:20px;   
+    color:black; 
+}
+#artistbtn{
+    background-color: #7F00FF;
+    color: black;
+    border-radius: 10px;
+    margin-left: 10px; 
+    padding:20px;   
+}
+
+
+
+
+
+
