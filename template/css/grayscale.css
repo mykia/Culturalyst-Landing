@@ -502,13 +502,13 @@ body {
 }
 
 #launchbtn{
-    background-color: #FFFF00;
+    background-color: #e05151;
     border-radius: 10px;  
     padding:20px;   
     color:black; 
 }
 #artistbtn{
-    background-color: #7F00FF;
+    background-color: #75a3da;
     color: black;
     border-radius: 10px;
     margin-left: 10px; 
