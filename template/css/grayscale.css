@@ -189,7 +189,7 @@ a:focus {
     font-size: 40px;
 }
 
-@media(max-width:420px) {
+@media(max-width:500px) {
     .intro {
         background-size: auto 67%;
         background-position: -51px -17px;
@@ -207,7 +207,7 @@ a:focus {
     }
 }
 
-@media(max-width:768px) {
+@media(min-width: 500px) and (max-width:768px) {
     .intro {
             background-size: 100% 63%;
     background-position: 0 -5px;
@@ -355,17 +355,23 @@ button {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    border: 2px solid #7F00FF;
+    border-radius: 10px;
+    color: #7F00FF;
     background-color: transparent;
+    padding: 5px 10px;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid black;
-    outline: 0;
+    background: #7F00FF;
+    border-color: #000;
     color: #000;
-    background-color: black;
+    -webkit-transition: all ease 0.7s;
+    -moz-transition: all ease 0.7s;
+    -o-transition: all ease 0.7s;
+    -ms-transition: all ease 0.7s;
+    transition: all ease 0.5s;
 }
 
 ul.banner-social-buttons {
@@ -443,7 +449,7 @@ footer {
 
 footer p {
     color: #B7B7B7;
-    margin: 0;
+    margin: 0 0 10px 0;
     font-size: 10px;
     text-transform: uppercase;
     font-weight: 500;
