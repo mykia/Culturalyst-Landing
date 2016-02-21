@@ -189,7 +189,7 @@ a:focus {
     font-size: 40px;
 }
 
-@media(max-width:500px) {
+/*@media(max-width:500px) {
     .intro {
         background-size: auto 67%;
         -webkit-background-size: auto 67%;
@@ -221,7 +221,7 @@ a:focus {
       width: 18%;
       margin-top: -25px;
     }
-}
+}*/
 
 
 .btn-circle {
@@ -587,15 +587,41 @@ body {
     }
 }
 
-/*@media only screen and (min-width : 375px) and (max-width : 667px) {
+@media only screen and (min-width : 375px) and (max-width : 667px) {
   .intro {
     -webkit-background-size: auto 75%;
+    background-size: auto 75%;
     -webkit-background-position: -70px -50px;
+    background-position: -70px -50px;
+   }
+
 }
 
-
+@media only screen and (min-width : 768px) and (max-width : 1024px)  {
+  .intro {
+    -webkit-background-size: 100% 63%;
+    background-size: 100% 63%;
+    -webkit-background-position: 0 -5px;
+    background-position: 0 -5px;
+    padding-top: 136px;
+    }
 }
-*/
+
+@media only screen and (min-width : 1024px) and (max-width : 1280px)  {
+  .intro {
+    -webkit-background-size: cover;
+    background-size: cover
+    -webkit-background-position: 0 -5px;
+    background-position: 0 -5px;
+    /*padding-bottom: 370px;*/
+    }
+
+    .btn-circle {
+      margin-top: 250px;
+
+    }
+}
+
 
 
 
