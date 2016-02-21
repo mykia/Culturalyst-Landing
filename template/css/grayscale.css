@@ -597,8 +597,8 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;*/
-    background-size: auto 75%;
-    background-position: -70px -50px;
+    -webkit-background-size: auto 75%;
+    -webkit-background-position: -70px -50px;
 }
 
 
