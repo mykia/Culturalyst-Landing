@@ -189,10 +189,12 @@ a:focus {
     font-size: 40px;
 }
 
-/*@media(max-width:500px) {
+@media(max-width:500px) {
     .intro {
         background-size: auto 67%;
+        -webkit-background-size: auto 67%;
         background-position: -51px -17px;
+        -webkit-background-position: -51px -17px;
     }
 }
 
@@ -209,15 +211,17 @@ a:focus {
 
 @media(min-width: 500px) and (max-width:768px) {
     .intro {
-            background-size: 100% 63%;
-    background-position: 0 -5px;
-    padding-top: 136px;
+      -webkit-background-size: 100% 63%;
+      background-size: 100% 63%;
+      -webkit-background-position: 0 -5px;
+      background-position: 0 -5px;
+      padding-top: 136px;
     }
     .logo {
       width: 18%;
       margin-top: -25px;
     }
-}*/
+}
 
 
 .btn-circle {
@@ -583,27 +587,15 @@ body {
     }
 }
 
-@media only screen and (min-width : 375px) and (max-width : 667px) {
+/*@media only screen and (min-width : 375px) and (max-width : 667px) {
   .intro {
-    /*display: table;
-    width: 100%;*/
-    /*height: auto;*/
-    /*padding: 100px 0;
-    text-align: center;
-    color: #fff;
-    background: url(../img/coverPhoto-375.png) no-repeat center center fixed;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;*/
     -webkit-background-size: auto 75%;
     -webkit-background-position: -70px -50px;
 }
 
 
 }
-
+*/
 
 
 
