@@ -565,6 +565,7 @@ body {
     padding:20px;
 }
 
+
 #artistbtn:hover {
     background: #000;
     border-color: #fff;
@@ -580,6 +581,25 @@ body {
     #artistbtn {
         margin-top: 15px;
     }
+}
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+  .intro {
+    display: table;
+    width: 100%;
+    /*height: auto;*/
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/coverPhoto-375.png) no-repeat center center fixed;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
 }
 
 
