@@ -189,7 +189,7 @@ a:focus {
     font-size: 40px;
 }
 
-@media(max-width:500px) {
+/*@media(max-width:500px) {
     .intro {
         background-size: auto 67%;
         background-position: -51px -17px;
@@ -217,7 +217,7 @@ a:focus {
       width: 18%;
       margin-top: -25px;
     }
-}
+}*/
 
 
 .btn-circle {
@@ -583,12 +583,12 @@ body {
     }
 }
 
-@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+@media only screen and (min-width : 375px) and (max-width : 667px) {
   .intro {
-    display: table;
-    width: 100%;
+    /*display: table;
+    width: 100%;*/
     /*height: auto;*/
-    padding: 100px 0;
+    /*padding: 100px 0;
     text-align: center;
     color: #fff;
     background: url(../img/coverPhoto-375.png) no-repeat center center fixed;
@@ -596,7 +596,9 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
+    background-size: auto 75%;
+    background-position: -70px -50px;
 }
 
 
