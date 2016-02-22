@@ -587,22 +587,42 @@ body {
     }
 }
 
-@media only screen and (min-width : 375px) and (max-width : 667px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
   .intro {
-    -webkit-background-size: auto 75%;
-    background-size: auto 75%;
-    -webkit-background-position: -70px -50px;
-    background-position: -70px -50px;
+    -webkit-background-size: auto 16%;
+    background-size: auto 16%;
+    -webkit-background-position: -60px -20px;
+    background-position: -60px -20px;
    }
 
 }
 
+@media only screen and (min-width : 320px) and (max-width : 768px) {
+  .intro {
+    -webkit-background-size: auto 63%;
+    background-size: auto 63%;
+    -webkit-background-position: -60px -20px;
+    background-position: -60px -20px;
+   }
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+  .intro {
+    -webkit-background-size: auto 20%;
+    background-size: auto 20%;
+    -webkit-background-position: -5px -10px;
+    background-position: -5px -10px;
+    padding-top: 136px;
+    }
+}
+
 @media only screen and (min-width : 768px) and (max-width : 1024px)  {
   .intro {
-    -webkit-background-size: 100% 63%;
-    background-size: 100% 63%;
-    -webkit-background-position: 0 -5px;
-    background-position: 0 -5px;
+    -webkit-background-size: auto 75%;
+    background-size: auto 75%;
+    -webkit-background-position: -5px -10px;
+    background-position: -5px -10px;
     padding-top: 136px;
     }
 }
@@ -616,10 +636,6 @@ body {
     /*padding-bottom: 370px;*/
     }
 
-    .btn-circle {
-      margin-top: 250px;
-
-    }
 }
 
 
