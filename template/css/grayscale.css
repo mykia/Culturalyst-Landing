@@ -599,10 +599,18 @@ body {
 
 @media only screen and (min-width : 320px) and (max-width : 768px) {
   .intro {
+    /*-webkit-background-size: auto 63%;
+    background-size: auto 63%;
+    -webkit-background-position: -60px -20px;
+    background-position: -60px -20px;*/
     -webkit-background-size: auto 63%;
     background-size: auto 63%;
     -webkit-background-position: -60px -20px;
-    background-position: -60px -20px;
+    background-position: 1px -19px;
+    padding-bottom: 134px;
+   }
+   .logo {
+    margin-top: -33px;
    }
 
 }
@@ -617,7 +625,7 @@ body {
     }
 }
 
-@media only screen and (min-width : 768px) and (max-width : 1024px)  {
+@media only screen and (min-width : 768px) and (max-width : 900px)  {
   .intro {
     -webkit-background-size: auto 75%;
     background-size: auto 75%;
@@ -627,13 +635,23 @@ body {
     }
 }
 
+@media only screen and (min-width : 900px) and (max-width : 1024px)  {
+  .intro {
+    -webkit-background-size: auto 90%;
+    background-size: auto 90%;
+    -webkit-background-position: -60px -63px;
+    background-position: -60px -63px;
+    padding-top: 136px;
+    }
+}
+
 @media only screen and (min-width : 1024px) and (max-width : 1280px)  {
   .intro {
     -webkit-background-size: cover;
     background-size: cover
-    -webkit-background-position: 0 -5px;
-    background-position: 0 -5px;
-    /*padding-bottom: 370px;*/
+    -webkit-background-position: 0px -15px;
+    background-position: 0px -15px;
+    padding-bottom: 370px;
     }
 
 }
